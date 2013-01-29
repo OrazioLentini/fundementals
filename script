@@ -1,15 +1,13 @@
-var amount = 0; 
+var myArray = [500,500,500,500,500,123,456,678];
 
-// create the index
-var i = 0;
+var total = 0;
 
-// check condition
-while ( i <= 10 ) 
+for ( var i = 0 ; i < myArray.length ; i++ ) 
 {
-	amount = amount + 100;
-
-	// increment index
-	i++;
+    // add the current element to the total	
+    total = total + myArray[i];
 }
 
-alert("The value is: " + amount);
+// after we're done with the loop
+alert("The total is: " + total);
+
