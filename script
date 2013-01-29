@@ -1,12 +1,14 @@
-var a = 5;
-var b = 10;
+var balance = 5000;
 
-if ( a < b ) 
+if ( balance >= 0 )
 {
-  alert("Yes, a is less than b");
-}
-
-if ( a == b) 
+  alert("The balance is positive");
+  if ( balance > 10000 )
+  {
+    alert("The balance is large!");
+  }
+} 
+else
 {
-  alert("Yes, a is equal to b");
+  alert("The balance is negative");
 }
