@@ -1,20 +1,12 @@
-// numeric variables
-
 var a = 5;
 var b = 10;
-var c = 20; 
 
+if ( a < b ) 
+{
+  alert("Yes, a is less than b");
+}
 
-// boolean variables
-
-var x = true;
-var z = false;
-
-
-// string variables
-
-var name = prompt("What is your name?");
-var message = "Hello, ";
-
-alert(message + name);
-
+if ( a == b) 
+{
+  alert("Yes, a is equal to b");
+}
