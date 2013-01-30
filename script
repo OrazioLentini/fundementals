@@ -1,8 +1,36 @@
+// define several functions
+function firstFunction() 
+{
+    secondFunction();
+}
+
+function secondFunction() 
+{
+    thirdFunction();
+}
+
+function thirdFunction() 
+{
+    fourthfunction();
+}
+
+function fourthFunction() 
+{
+    headline.innerHTML = "You clicked the headline!";
+}
+
+// grab the headline element
+alert("Im in the file");
 var headline = document.getElementById("mainHeading");
 
-headline.onclick = function () 
+// add a click event handler
+headline.onclick = function() 
 {
-   headline.innerHTML = "You clicked the headline.";
+    firstFunction();
+    alert("I've called the first function");
 };
+
+
+
 
 
