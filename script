@@ -1,3 +1,8 @@
 var headline = document.getElementById("mainHeading");
 
-headline.innerHTML = "Wow, a new headline!";
+headline.onclick = function () 
+{
+   headline.innerHTML = "You clicked the headline.";
+};
+
+
