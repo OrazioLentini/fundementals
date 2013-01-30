@@ -1,13 +1,3 @@
-var myArray = [500,500,500,500,500,123,456,678];
+var headline = document.getElementById("mainHeading");
 
-var total = 0;
-
-for ( var i = 0 ; i < myArray.length ; i++ ) 
-{
-    // add the current element to the total	
-    total = total + myArray[i];
-}
-
-// after we're done with the loop
-alert("The total is: " + total);
-
+headline.innerHTML = "Wow, a new headline!";
